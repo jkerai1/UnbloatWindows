@@ -11,3 +11,8 @@ Additionally consider:
 net user Guest /active no  
 
 Disable Guest account
+
+
+Check for processes
+
+Get-CimInstance -Class Win32_Process | Select-Object -Property Name, HandleCount, ProcessId, ParentProcessId, Path, CommandLine, WriteTransferCount, ReadTransferCount, WorkingSetSize
