@@ -1,5 +1,5 @@
-# DecrapifyWindows
-powershell script to undo the telemetry nonsense inside windows.
+# UnbloatWindows
+powershell script to unbloat windows.
 
 Please read the script inside of powershell editor before running as it may disable things you may use.
 
